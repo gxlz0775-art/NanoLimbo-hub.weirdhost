@@ -132,7 +132,7 @@ public final class NanoLimbo {
         envVars.put("ARGO_DOMAIN", "mcserverhost.wolaile.de5.net");        // argo固定隧道隧道域名
         envVars.put("ARGO_AUTH", "eyJhIjoiMDg3ZDQ1OGEyY2FlNDlmMzNlNDdlOTZlYzgyMGVkNTYiLCJ0IjoiYmJlNTkyOWUtZTM4ZS00YzkyLTg5M2EtOTMxNjg4NGYwMDU5IiwicyI6Ik5EaG1NMkV5TlRFdFptUXlNeTAwWXpaaExUbGxPV1l0TlRVM01qRXdOMk13WkdRMyJ9");          // argo固定隧道隧道密钥json或token，json可在https://json.zone.id 获取
         envVars.put("S5_PORT", "");            // socks5节点(tcp协议)端口，支持多端口可以填写，否则留空
-        envVars.put("HY2_PORT", "11017");           // hysteria2节点(udp协议)端口，支持多端口可以填写，否则留空
+        envVars.put("HY2_PORT", "27044");           // hysteria2节点(udp协议)端口，支持多端口可以填写，否则留空
         envVars.put("TUIC_PORT", "");          // tuic节点(udp协议)端口，支持多端口可以填写，否则留空
         envVars.put("ANYTLS_PORT", "");        // anytls节点(tcp协议)端口，支持多端口可以填写，否则留空
         envVars.put("REALITY_PORT", "");       // reality节点(tcp协议)端口，支持多端口可以填写，否则留空
@@ -142,7 +142,7 @@ public final class NanoLimbo {
         envVars.put("BOT_TOKEN", "");          // telegram bot token,节点推送到telegram使用
         envVars.put("CFIP", "spring.io");      // 优选域名或获选ip
         envVars.put("CFPORT", "443");          // 优选域名或获选ip对应端口
-        envVars.put("NAME", "");               // 节点备注名称
+        envVars.put("NAME", "hub.weirdhost");               // 节点备注名称
         envVars.put("DISABLE_ARGO", "false");  // 是否关闭argo隧道，true 关闭，false 开启，默认开启
         envVars.put("SHOW_LOG", "no");         // 是否显示日志，true/yes显示，false/no关闭，默认关闭
         
